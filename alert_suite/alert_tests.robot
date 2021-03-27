@@ -2,7 +2,6 @@
 Library    SeleniumLibrary  
 Library    OperatingSystem       
     
-
 *** Test Cases ***
 TC1_loginl
     Append To Environment Variable  PATH   C:\\component
