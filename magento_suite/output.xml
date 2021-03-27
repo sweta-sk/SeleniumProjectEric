@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.2 on win32)" generated="20210321 15:04:39.440" rpa="false">
+<suite id="s1" name="Login Tests" source="C:\Users\eswakui\Desktop\robot\robotworkspace\Selenium Project\magento_suite\login_tests.robot">
+<test id="s1-t1" name="TC1_ValidCredential">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>sweta</arg>
+</arguments>
+<status status="PASS" starttime="20210321 15:04:39.482" endtime="20210321 15:04:39.482"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>india</arg>
+</arguments>
+<status status="PASS" starttime="20210321 15:04:39.483" endtime="20210321 15:04:39.483"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>sweta</arg>
+</arguments>
+<msg timestamp="20210321 15:04:39.484" level="INFO">sweta</msg>
+<status status="PASS" starttime="20210321 15:04:39.484" endtime="20210321 15:04:39.484"></status>
+</kw>
+<status status="PASS" starttime="20210321 15:04:39.477" endtime="20210321 15:04:39.485" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Tc2_PrintDate">
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${date}</var>
+</assign>
+<msg timestamp="20210321 15:04:39.488" level="INFO">${date} = 2021-03-21 15:04:39.488</msg>
+<status status="PASS" starttime="20210321 15:04:39.488" endtime="20210321 15:04:39.488"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${date}</arg>
+</arguments>
+<status status="PASS" starttime="20210321 15:04:39.488" endtime="20210321 15:04:39.489"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>sweta</arg>
+</arguments>
+<assign>
+<var>${name}</var>
+</assign>
+<msg timestamp="20210321 15:04:39.492" level="INFO">${name} = sweta</msg>
+<status status="PASS" starttime="20210321 15:04:39.492" endtime="20210321 15:04:39.492"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${name}</arg>
+</arguments>
+<status status="PASS" starttime="20210321 15:04:39.493" endtime="20210321 15:04:39.493"></status>
+</kw>
+<status status="PASS" starttime="20210321 15:04:39.487" endtime="20210321 15:04:39.494" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20210321 15:04:39.445" endtime="20210321 15:04:39.496"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" id="s1" name="Login Tests">Login Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
